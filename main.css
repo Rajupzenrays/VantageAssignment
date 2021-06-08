@@ -1,0 +1,206 @@
+/* -----------navbar start ----------------- */
+#navbar-fixed{
+  position: fixed !important;
+  width: 100%;
+  background-color: #fff !important; 
+  z-index: 2;
+}
+.navbar {
+  box-shadow: 0px 2px 5px rgb(230, 230, 230);
+}
+.img {
+  margin-left: 150px;
+}
+#navbarNavAltMarkup {
+  margin-left: 500px;
+}
+
+#navbarNavAltMarkup .navbar-nav a {
+  color: #5b3b97;
+}
+.banner {
+  background-image: url(./img2/banner-pattern.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 462px;
+  position: relative;
+  overflow: hidden;
+  padding: 130px 0 160px;
+  box-sizing: border-box;
+}
+.image-fluid {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.content{
+     padding-left: 70px;
+}
+/* -----------navbar  end----------------- */
+
+
+
+.head-title{
+     font-size: 50px;
+}
+/* ----------------company section------------- */
+#pricing {
+  text-align: center;
+}
+
+.company {
+     font-family: "Poppins" sans-serif;
+     font-size: 40px;
+     padding: 100px;
+   }
+   .table ul{
+     list-style: none;
+     padding: 20px 20px;
+
+     
+}
+   .table a{
+        list-style: none;
+        color: #fff;
+        text-decoration: none;
+
+   }
+   .table{
+        margin-bottom: 100px !important;
+   }
+/* ----------------company section end------------- */
+
+/* -------------------btn------------------- */
+.btn-common{
+     color: #fff !important;
+     background-color: #5b3b97 !important;
+     border-radius: 30px !important;
+     padding: 10px 25px 10px 25px !important;;
+}
+
+/* ------------------Global cababilities---------------- */
+.gray{
+     background-color: #f9f9f9;
+}
+
+.calculations{
+     padding: 80px 0px 0px 85px !important;
+}
+.section-title{
+  font-size: 3rem;
+}
+.section-title h3{
+  font-size: 2.5rem;
+}
+
+/* ------------------------Team Section------------------------------- */
+#team{
+  margin-left: 100px;
+}
+.justify{
+  margin: auto !important;
+  justify-content: center;
+  padding: 50px;;
+}
+.section-header{
+     padding-top: 100px;
+}
+.card{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: end;
+  margin: 15px;
+  width: 80%;
+}
+.shadow{
+  box-shadow: 2px 2px 2px 5px rgb(189, 189, 189) !important;
+
+}
+.info-text{
+  text-align: center;
+  padding: 9px;
+}
+/* ------------------------------contact us----------- */
+.contactUs {
+  background-color: #5b3b97;
+  padding: 60px;
+  padding-left: 120px;
+}
+.contact-container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+}
+.contactUs .btn-common {
+  border: 1px solid #fff;
+}
+.btn-common {
+  background-color: #5b3b97;
+  position: relative;
+  z-index: 1;
+  font-weight: 400;
+}
+  .cta-text h4{
+    margin-bottom: .5rem;
+    font-size: 2rem;
+    font-family: "Poppins";
+  }
+  .contact-align{
+    padding-left: 400px !important;
+  }
+
+#copyrightText p {
+  line-height: 42px;
+  color: #677294;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  /* -----------navbar start----------------- */
+  .section-padding {
+    padding: 60px 0;
+  }
+  .img {
+    margin-left: 70px;
+  }
+  .togglebtn {
+    height: 40px;
+    box-sizing: border-box;
+    margin-right: 140px;
+    border: 1px solid #5b3b97 !important;
+    color: #5b3b97 !important;
+  }
+
+  #navbarNavAltMarkup {
+    margin-left: 70px;
+  }
+
+  /* -----------navbar  end----------------- */
+/* ----------------------------company section--------------------------- */
+.company{
+  font-size: 30px;
+}
+.section-header{
+  padding-top: 0px !important;
+}
+
+  /* ------------contact us-------------------- */
+
+  .contact-align{
+    padding-left: 0px !important;
+    margin-bottom: 15px;
+  }
+  #copyrightText .copyright-content {
+    padding: 8px 0;
+    color: #677294;
+}
+#footer{
+  height: auto;
+}
+}
